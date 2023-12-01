@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body class="body">
+    <header>
+        <div class="container">
+            <h1> Speak Now!</h1>
+            <h3 style="color: white;">Taloy's Version</h3>
+            <br><br>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="navigateTo('home')">Home</a></li>
+                    <li><a href="#" onclick="navigateTo('about')">Profile</a></li>
+                    <li><a href="#" onclick="navigateTo('projects')">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <main id="home" class="container">
+        <h2 style="font-size: 50px;">Welcome to my Speak Now Inspired Portfolio</h2>
+        <p>"You're on your Own, Kid"</p>
+    </main>
+
+    <main id="about" class="container" style="display: none;">
+        <br><br><br>
+        <img src="re.jpg" alt="Rey" class="img">
+        <h5>Rey Sinabianan</h5>
+        <h5>Student No. 20212010</h5>
+        <h5>IT kuno</h5>
+        <h5>GitHub Acc: <a href="https://github.com/taloy2">Taloy</a></h5>
+        <br>
+    </main>
+
+    <main id="projects" class="container" style="display: none;">
+        <br><br>
+        <div class="project">
+            <h3 style="color: white; font-size: xx-large; font-family: monospace;"><a href="https://github.com/taloy2/IT21C-PROJECTS/tree/main/src">Projects Repository</a></h3>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
