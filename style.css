@@ -29,6 +29,7 @@ header p {
 
 nav ul {
     list-style-type: none;
+    float: left;
     margin: 0;
     padding: 0;
     color: violet;
@@ -44,6 +45,7 @@ nav a {
     color: violet;
     font-weight: bold;
     transition: color 0.3s;
+    text-align: center;
 }
 
 nav a:hover {
@@ -90,24 +92,37 @@ main {
 }
 .container h2{
     color: white;
+    font-family: 'Tangerine';
 }
 .container p{
     color: white;
 }
 .container h1{
-    font-size: 100px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 180px;
+    font-family: 'Tangerine';
+    color: violet;
+    height: fit-content;
+    text-align: center;
 }
 .container h5{
     color: white;
-    font-size:xx-large;
-    font-family: monospace;
+    font-size: xx-large;
+    font-family:   'Tangerine';
 }
 .container h3{
+    color: white;
+    font-family: 'Tangerine';
+    font-size: 50px;
 }
 .img{
     border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   width: 150px;
+}
+.nav{
+    height: 0%;
+}
+.tv{
+    float: right;
 }

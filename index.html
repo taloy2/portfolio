@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This is My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
    
 </head>
 
 <body class="body">
-    <audio controls autoplay>
-        <source src="Back_To_December__Taylor_s_Version_.mp3" type="audio/mpeg">
+    <audio controls autoplay style="display: none;">
+        <source src="Enchanted__Taylor_s_Version_.mp3" type="audio/mpeg">
       Your browser does not support the audio element.    
     </audio> 
     <header>
         <div class="container">
-            <h1> Speak Now!</h1>
-            <h3 style="color: white;">Taloy's Version</h3>
             <br><br>
-            <nav>
+            <nav class="nav">
                 <ul>
                     <li><a href="#" onclick="navigateTo('home')">Home</a></li>
                     <li><a href="#" onclick="navigateTo('about')">Profile</a></li>
@@ -31,21 +33,20 @@
     </header>
 
     <main id="home" class="container">
-        <h2 style="font-size: 50px;">Welcome to my <span style="color: violet;">Speak Now</span> Inspired Portfolio</h2>
-        <p>"You're on your Own, Kid"</p>
+        <h1>Speak Now! <span><h5 class="tv">Taloy's Version</h5></span></h1>
     </main>
 
     <main id="about" class="container" style="display: none;">
         <br><br><br>
         <img src="re.jpg" alt="Rey" class="img">
-        <h5>Rey Sinabianan</h5>
-        <h5>Student No. 20212010</h5>
-        <h5>IT kuno</h5>
-        <h5>GitHub Acc: <a href="https://github.com/taloy2">Taloy</a></h5>
+        <h5 style="font-family: monospace;">Rey Sinabianan</h5>
+        <h5 style="font-family: monospace;">Student No. 20212010</h5>
+        <h5 style="font-family: monospace;">IT kuno</h5>
+        <h5 style="font-family: monospace;">GitHub Acc: <a href="https://github.com/taloy2">Taloy</a></h5>
         <br>
     </main>
 
-    <main id="projects" class="container" style="display: none;">
+    <main id="projects" class="container" style="display: none; cursor: pointer;">
         <br><br>
         <div class="project">
             <h3><a href="https://github.com/taloy2/IT21C-PROJECTS/tree/main/src"><img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/folder-invoices--v1.png" alt="folder-invoices--v1"/></a></h3>
